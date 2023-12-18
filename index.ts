@@ -8,9 +8,11 @@ const port = 4000
 
 const access: ConnectionOptions = {
     host:'localhost',
-    user: 'omgcom',
-    password:'xG8spQ(6OP60p*',
-    database: 'omgcom_microserv_db',
+    user: 'root',
+    database: 'omgcom_microserv_db'
+    // user: 'omgcom',
+    // password:'xG8spQ(6OP60p*',
+
   };
 const conn = mysql.createConnection(access);
 
